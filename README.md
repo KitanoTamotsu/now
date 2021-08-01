@@ -1,6 +1,8 @@
 ## 　　Lesson25.　スニペット起動を使ってみる  
 #### 開発メモ
 [サンプル動画](https://user-images.githubusercontent.com/40127279/126054764-375b8576-4334-43dc-a5f3-03dd68abd815.mp4)
+ワークフロー
+<br><img width="600" src="https://user-images.githubusercontent.com/40127279/127757168-373aefbc-774f-45c8-ad0c-876a60a02db5.png">
 
 ### 1.スニペット起動を理解する
 　スニペットは定型的なテキストを短縮語で呼び出す機能
@@ -73,6 +75,13 @@
 <br>　zshだと、日付のプラスマイナスは『-v』オプションを使います
 <br>　dateコマンドのmanにあるexamplesが参考になるかも
 <br>
+<br>　ScriptFilter（前半ロジック） 
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127757232-9b17e793-d79f-412a-b0ca-93e87902ae84.png">
+<br>　ScriptFilter（後半ロジック） 
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127757238-0da30753-dde0-4eb7-9bf2-2219f67d49f5.png">
+
+
+
 #### 背景
 　スニペットでのワークフロー起動があったので試してみました
 <br>　スニペットは引数が取れないのが辛いと思いましたが
